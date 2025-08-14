@@ -5,7 +5,7 @@
 <p>We will create a Postgres database and tables to store data from 2 datasets. After that, we will create an ETL pipeline script from Python and SQL in order extract, transform, and load data from the directories that the datasets are stored into the tables. From the creation of the database, star-schema table structure, and ETL pipeline, the hypothetical Sparkify analytics team will be able to create optimized queries for songplay analysis.</p> 
 
 ### <u>Resources:</u>
-The project workspace contains 1 README, 2 dataset files, 5 python or SQL script files, and 1 image directory containing the database schema PDF. The description of each dataset file and workstation file is listed below.
+The project workspace contains 1 README, 2 dataset files, 5 python or SQL script files, and 1 image directory containing the database schema images. The description of each dataset file and workstation file is listed below.
 
 #### Dataset Files
 - <b>Song Dataset:</b> The dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song.
@@ -46,5 +46,5 @@ The project workspace contains 1 README, 2 dataset files, 5 python or SQL script
 ### <u>Database Schema:</u>
 The database will contain a star-schema of 1 fact table <i>songplays</i> and 4 dimensional tables for <i>users</i>, <i>songs</i>, <i>artists</i>, and <i>time</i>. Every primary key from the dimensional table is included in the fact table. There is a one-to-many relationship between each primary key from the dimensional table to the fact table. The fact table itself, <i>songplays</i>, contains its own primary key to identify each unique record.
 
-![Sparkify Database Schema](./images/Sparkify_DBSchema.pdf)
+![Sparkify Database Schema](./images/Sparkify_DBSchema.jpg)
 
